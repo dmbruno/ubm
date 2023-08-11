@@ -5,7 +5,8 @@
 
 .precio {
   color: 0;
-  margin-top: 3.75rem; }
+  margin-top: 3.75rem;
+  margin-left: .3125rem; }
 
 .tarifa {
   margin-top: 1.875rem;
@@ -15,8 +16,10 @@
 
 .pie {
   margin: .9375rem;
-  color: gray;
   display: flex;
   align-items: center;
   justify-content: left;
-  font-size: .8125rem; }
+  font-size: .8125rem;
+  color: red; }
+  .pie p {
+    color: red; }
