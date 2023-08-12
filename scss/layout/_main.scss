@@ -20,3 +20,15 @@
         color: $color-letra;
     }
 }
+main{
+    section{
+        background-image: url(/assets/img/sabemosdeturismo.png);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: .625rem;
+        height: 25rem;
+        flex-direction: column;
+        
+    }
+}

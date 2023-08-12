@@ -1,8 +1,11 @@
-$color-letra: red;
+$color-letra: black;
+$color-background: rgba(0, 0, 0, 0.763);
 
 
 @import "./base/reset";
 
+@import "./layout/header";
 
 @import "./layout/main";
+
 
