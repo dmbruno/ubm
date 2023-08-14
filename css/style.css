@@ -33,8 +33,16 @@
 main section {
   background-image: url(/assets/img/sabemosdeturismo.png);
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
-  margin: .625rem;
+  /* margin: .625rem; */
   height: 25rem;
   flex-direction: column; }
+  main section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: .9375rem;
+    font-weight: bold;
+    font-style: oblique; }
+  main section p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: .625rem; }

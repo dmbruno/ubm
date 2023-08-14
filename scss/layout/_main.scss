@@ -1,34 +1,49 @@
-.precio{
+.precio {
     color: red($color: #000000);
     margin-top: 3.75rem;
     margin-left: .3125rem;
 }
-.tarifa{
+
+.tarifa {
     margin-top: 1.875rem;
     border-top: 2px solid gray;
     margin-left: .3125rem;
     margin-right: .3125rem;
 }
-.pie{
+
+.pie {
     margin: .9375rem;
     display: flex;
     align-items: center;
     justify-content: left;
     font-size: .8125rem;
     color: $color-letra;
-    p{
+
+    p {
         color: $color-letra;
     }
 }
-main{
-    section{
+
+main {
+    section {
         background-image: url(/assets/img/sabemosdeturismo.png);
         display: flex;
-        align-items: center;
+        align-items: left;
         justify-content: center;
-        margin: .625rem;
+        /* margin: .625rem; */
         height: 25rem;
         flex-direction: column;
-        
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: .9375rem;
+            font-weight: bold;
+            font-style: oblique;
+        }
+
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: .625rem;
+        }
     }
 }
