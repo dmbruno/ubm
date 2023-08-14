@@ -4,7 +4,10 @@
   box-sizing: border-box; }
 
 .container-fluid a {
-  color: black; }
+  color: blue; }
+
+.contenedor .navbar {
+  background-color: rgba(0, 0, 0, 0.438); }
 
 .precio {
   color: 0;
@@ -23,9 +26,9 @@
   align-items: center;
   justify-content: left;
   font-size: .8125rem;
-  color: black; }
+  color: blue; }
   .pie p {
-    color: black; }
+    color: blue; }
 
 main section {
   background-image: url(/assets/img/sabemosdeturismo.png);
