@@ -47,23 +47,22 @@ main {
     }
 }
 
-body{
-    div{
-        h2{
+body {
+    div {
+        h2 {
             color: $color-letra;
             text-align: center;
             margin: .9375rem;
             padding-bottom: .9375rem;
             border-bottom: 2px solid gray;
             font-family: 'Times New Roman', Times, serif;
-            
             font-weight: bold;
             font-style: oblique;
         }
     }
 }
 
-.formulario{
+.formulario {
     padding: 1.25rem;
     width: 60%;
 }
