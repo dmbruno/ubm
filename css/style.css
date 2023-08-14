@@ -46,3 +46,17 @@ main section {
   main section p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: .625rem; }
+
+body div h2 {
+  color: blue;
+  text-align: center;
+  margin: .9375rem;
+  padding-bottom: .9375rem;
+  border-bottom: 2px solid gray;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: oblique; }
+
+.formulario {
+  padding: 1.25rem;
+  width: 60%; }
